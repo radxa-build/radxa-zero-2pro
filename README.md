@@ -6,7 +6,7 @@
 A collection of auto-generated images for Radxa Zero 2.
 
 * Armbian images will have name started with `Armbian`.
-* Radxa debos image will have name started with board name.
+* Radxa debos image will have name started with the board name.
 * Manjaro users can visit [here](https://github.com/manjaro-arm/radxa-zero2-images).
 
 ## Where can I download the image?
