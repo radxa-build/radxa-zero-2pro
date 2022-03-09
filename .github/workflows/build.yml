@@ -32,7 +32,7 @@ jobs:
     strategy:
       matrix:
         BOARD: [radxa-zero2]
-        DISTRO: [armbian]
+        DISTRO: [armbian, debos]
         FLAVOR: [debian, ubuntu]
     steps:
       - name: Checkout
@@ -40,6 +40,14 @@ jobs:
       - name: Upload Armbian image
         uses: radxa/armbian-compile-action@main
         if: matrix.DISTRO == 'armbian'
+        with:
+          board: ${{ matrix.BOARD }}
+          flavor: ${{ matrix.FLAVOR }}
+          release-id: ${{ needs.prepare_release.outputs.release_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload debos-radxa image
+        uses: radxa/debos-build-action@main
+        if: matrix.DISTRO == 'debos'
         with:
           board: ${{ matrix.BOARD }}
           flavor: ${{ matrix.FLAVOR }}
