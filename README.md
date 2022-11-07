@@ -24,7 +24,7 @@ Armbian users are strongly recommended to use [Armbian official image](https://w
 
 Manjaro users can visit [here](https://github.com/manjaro-arm/radxa-zero2-images).
 
-Please visit [our Wiki](https://wiki.radxa.com/Zero/downloads) for more download options.
+Please visit [our Wiki](https://wiki.radxa.com/Zero2/downloads) for more download options.
 
 ## Where can I download the Radxa image?
 
@@ -32,6 +32,6 @@ Every month new images are [built](https://github.com/radxa-build/radxa-zero2/ac
 
 ## Help! Something doesn't work!
 
-For other questions, please first take a look at [our Wiki](https://wiki.radxa.com/Zero), which covers the most basic usages.
+For other questions, please first take a look at [our Wiki](https://wiki.radxa.com/Zero2), which covers the most basic usages.
 
 Should you have any additional questions, please visit [our forum](https://forum.radxa.com/) or [our Discord](https://rock.sh/go), and we are willing to help.
