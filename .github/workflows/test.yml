@@ -27,7 +27,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        boards: [radxa-zero2]
+        boards: [radxa-zero-2pro]
         build_systems: [rbuild]
         # distros: [debian, ubuntu]
         suites: [bookworm, jammy]

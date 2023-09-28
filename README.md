@@ -1,9 +1,9 @@
-# Radxa ZERO 2
-[![Build](https://github.com/radxa-build/radxa-zero2/workflows/Build/badge.svg)](https://github.com/radxa-build/radxa-zero2/actions/workflows/build.yml)
+# Radxa ZERO 2 PRO
+[![Build](https://github.com/radxa-build/radxa-zero-2pro/workflows/Build/badge.svg)](https://github.com/radxa-build/radxa-zero-2pro/actions/workflows/build.yml)
 
 ## What is this?
 
-This repo is the central location for Radxa-built system images for Radxa ZERO 2.
+This repo is the central location for Radxa-built system images for Radxa ZERO 2 PRO.
 
 ## What images are provided?
 
@@ -14,7 +14,7 @@ Currently 4 flavors are provided:
 - Ubuntu KDE: This flavor is provided as-is except for critical issues. Users should look at Debian KDE as an alternative.
 - Ubuntu CLI: This flavor is provided as-is except for critical issues. Users should look at Debian CLI as an alternative.
 
-Please also always use [the latest release](https://github.com/radxa-build/radxa-zero2/releases/latest) instead of any pre-release / test builds. Those will not be supported.
+Please also always use [the latest release](https://github.com/radxa-build/radxa-zero-2pro/releases/latest) instead of any pre-release / test builds. Those will not be supported.
 
 ## Is there any other options?
 
