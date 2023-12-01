@@ -1,5 +1,5 @@
 # Radxa ZERO 2 PRO
-[![Build](https://github.com/radxa-build/radxa-zero-2pro/workflows/Build/badge.svg)](https://github.com/radxa-build/radxa-zero-2pro/actions/workflows/build.yml)
+[![Build image for Release channel](https://github.com/radxa-build/radxa-zero-2pro/actions/workflows/build.yml/badge.svg)](https://github.com/radxa-build/radxa-zero-2pro/actions/workflows/build.yml) [![Build image for Test channel](https://github.com/radxa-build/radxa-zero-2pro/actions/workflows/test.yml/badge.svg)](https://github.com/radxa-build/radxa-zero-2pro/actions/workflows/test.yml)
 
 ## What is this?
 
